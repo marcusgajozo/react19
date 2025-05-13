@@ -3,11 +3,13 @@ import { Layout } from "../components/templates/Layout";
 import { Home } from "../pages/Home/Home";
 import { LoginGoogle } from "../pages/LoginGoogle/LoginGoogle";
 import { ConfigHuskyCommitlint } from "../pages/ConfigHuskyCommitlint/ConfigHuskyCommitlint";
+import { ErrorBoundary } from "../pages/ErrorBoundary/ErrorBoundary";
 
 export const routes = createBrowserRouter([
   {
     path: "/",
     Component: Layout,
+    ErrorBoundary: ErrorBoundary,
     children: [
       {
         index: true,
