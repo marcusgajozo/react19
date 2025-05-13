@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router";
 import { Layout } from "../components/templates/Layout";
 import { Home } from "../pages/Home/Home";
 import { LoginGoogle } from "../pages/LoginGoogle/LoginGoogle";
-import { ConfigHuskyCommitlint } from "../pages/ConfigHusky/ConfigHuskyCommitlint";
+import { ConfigHuskyCommitlint } from "../pages/ConfigHuskyCommitlint/ConfigHuskyCommitlint";
 
 export const routes = createBrowserRouter([
   {
