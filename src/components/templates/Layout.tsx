@@ -1,14 +1,13 @@
+import { Outlet } from "react-router";
 import { Menu } from "../organisms/Menu";
 
-type LayoutProps = Readonly<{
-  children: React.ReactNode;
-}>;
-
-export const Layout = ({ children }: LayoutProps) => {
+export const Layout = () => {
   return (
     <main className="flex h-screen">
       <Menu />
-      <div className="w-full flex justify-center">{children}</div>
+      <div className="w-full flex justify-center">
+        <Outlet />
+      </div>
     </main>
   );
 };
