@@ -14,7 +14,7 @@ export const routes = createBrowserRouter([
         Component: Home,
       },
       {
-        path: "config-husky",
+        path: "config-husky-commitlint",
         Component: ConfigHuskyCommitlint,
       },
       {
