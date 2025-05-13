@@ -2,8 +2,8 @@ import { NavLink } from "react-router";
 
 export const Menu = () => {
   return (
-    <aside className="w-xs pl-4 pt-2 bg-gray-50">
-      <div className="">
+    <aside className="w-xs bg-gray-50">
+      <div className="bg-gray-200 p-4">
         <h3 className="text-2xl font-bold">Study React19</h3>
         <p className="text-sm text-gray-500">
           by{" "}
@@ -17,7 +17,7 @@ export const Menu = () => {
           </a>
         </p>
       </div>
-      <nav className="flex flex-col gap-2 mt-4">
+      <nav className="flex flex-col gap-2 p-4">
         <NavLink to="/" end>
           Home
         </NavLink>
